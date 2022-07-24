@@ -1,0 +1,35 @@
+#main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.boxes{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(123, 239, 239);
+}
+.button{
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+}
+.btn2{
+    background-color: rgb(28, 197, 92);
+    color: aliceblue;
+    border: 5px solid darkorange;
+    border-radius: 20px;
+    padding: 10px;
+}
+#clock{
+    margin-left: 30%;
+    height: 100px;
+    width: 300px;
+    background-color: blueviolet;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    padding-top: 20px;
+    font-size: x-large;
+}
