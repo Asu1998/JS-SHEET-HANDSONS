@@ -81,9 +81,7 @@ function clock(){
     }
     document.getElementById("hour").innerHTML = hour + `<br>hour`;
     document.getElementById("min").innerHTML = min + `<br>min`;
-    document.getElementById("sec").innerHTML = sec + `<br>sec`;    
-
-    
+    document.getElementById("sec").innerHTML = sec + `<br>sec`;        
 };
 setInterval(clock,1000);
 
